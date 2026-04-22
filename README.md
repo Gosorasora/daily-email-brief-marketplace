@@ -17,19 +17,13 @@ Cowork 또는 Claude Code에서 아래 명령을 입력하세요.
 **1. 마켓플레이스 추가**
 
 ```
-/plugin marketplace add <GitHub 사용자명>/<리포 이름>
-```
-
-예시:
-
-```
-/plugin marketplace add sora/daily-email-brief-marketplace
+/plugin marketplace add Gosorasora/daily-email-brief-marketplace
 ```
 
 **2. 플러그인 설치**
 
 ```
-/plugin install daily-email-brief@sora-plugins
+/plugin install daily-email-brief@sora
 ```
 
 **3. Gmail 커넥터 연결** — 설치 후 본인 Gmail 계정을 연결하면 바로 사용 가능합니다.
@@ -37,7 +31,7 @@ Cowork 또는 Claude Code에서 아래 명령을 입력하세요.
 **4. (선택) 최신 버전으로 업데이트**
 
 ```
-/plugin marketplace update sora-plugins
+/plugin marketplace update sora
 ```
 
 ---
@@ -63,7 +57,7 @@ git push -u origin main
 1. `daily-email-brief/.claude-plugin/plugin.json` 의 `version` 올리기
 2. `.claude-plugin/marketplace.json` 의 해당 플러그인 `version` 도 같은 값으로 올리기
 3. 변경사항 커밋 후 GitHub에 푸시
-4. 사용자는 `/plugin marketplace update sora-plugins` 로 반영
+4. 사용자는 `/plugin marketplace update sora` 로 반영
 
 ### 플러그인 추가 시
 
