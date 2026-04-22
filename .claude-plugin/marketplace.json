@@ -1,0 +1,20 @@
+{
+  "name": "sora-plugins",
+  "owner": {
+    "name": "Sora",
+    "email": "kodh0204@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "daily-email-brief",
+      "source": "./daily-email-brief",
+      "description": "Summarize the last 24 hours of Gmail in Korean, grouped into important / reference / noise.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Sora"
+      },
+      "keywords": ["gmail", "email", "summary", "korean", "daily-brief"],
+      "category": "productivity"
+    }
+  ]
+}
