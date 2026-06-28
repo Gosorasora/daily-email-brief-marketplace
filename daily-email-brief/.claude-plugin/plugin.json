@@ -1,9 +1,0 @@
-{
-  "name": "daily-email-brief",
-  "version": "0.1.0",
-  "description": "Summarizes the last 24 hours of Gmail in Korean, categorized into important / reference / noise.",
-  "author": {
-    "name": "Sora"
-  },
-  "keywords": ["gmail", "email", "summary", "korean", "daily-brief", "inbox"]
-}
