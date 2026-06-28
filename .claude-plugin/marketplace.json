@@ -6,14 +6,14 @@
   },
   "plugins": [
     {
-      "name": "daily-email-brief",
-      "source": "./daily-email-brief",
-      "description": "Summarize the last 24 hours of Gmail in Korean, grouped into important / reference / noise.",
+      "name": "daily-brief",
+      "source": "./daily-brief",
+      "description": "데일리브리프 — Gmail+Slack 통합 브리핑, Gmail 24시간 요약, Slack 채널 7일 요약.",
       "version": "0.1.0",
       "author": {
         "name": "Sora"
       },
-      "keywords": ["gmail", "email", "summary", "korean", "daily-brief"],
+      "keywords": ["gmail", "slack", "summary", "korean", "daily-brief"],
       "category": "productivity"
     }
   ]
