@@ -1,0 +1,12 @@
+{
+  "name": "daily-brief",
+  "version": "0.1.0",
+  "description": "데일리브리프 — Gmail+Slack 통합 브리핑, Gmail 24시간 요약, Slack 채널 7일 요약. 읽기 전용 리포트.",
+  "author": {
+    "name": "Sora"
+  },
+  "homepage": "https://github.com/Gosorasora/daily-email-brief-marketplace",
+  "repository": "https://github.com/Gosorasora/daily-email-brief-marketplace",
+  "license": "MIT",
+  "keywords": ["brief", "gmail", "slack", "korean", "digest", "daily"]
+}
